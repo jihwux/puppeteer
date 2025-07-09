@@ -1,9 +1,9 @@
 // node puppeteer.js
-// /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \          SIGINT(2) ↵
+// /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \         
 // --remote-debugging-port=9222 \
 // --user-data-dir=~/chrome-data \
 
-// 날짜 10개씩 실행 해야 야 한다(타임아웃)
+// 날짜 10개씩 실행   (타임아웃)
 
 const puppeteer = require("puppeteer-core");
 const { createObjectCsvWriter } = require("csv-writer");
